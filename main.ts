@@ -1,3 +1,7 @@
+/*
+eerste commit
+
+*/
 input.onButtonPressed(Button.B, function () {
     item = 20
     keuze = 1
