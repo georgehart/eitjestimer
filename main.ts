@@ -6,36 +6,18 @@ input.onButtonPressed(Button.B, function () {
     item = 20
     keuze = 1
     OLED12864_I2C.clear()
-    OLED12864_I2C.showString(
-    4,
-    1,
-    "HARDE",
-    1
-    )
-    OLED12864_I2C.showString(
-    4,
-    2,
-    "EITJES",
-    1
-    )
+    OLED12864_I2C.showString(4, 1, "HARDE", 1)
+    OLED12864_I2C.showString(4, 2, "EITJES", 1)
 })
+
 input.onButtonPressed(Button.A, function () {
     item = 10
     keuze = 2
     OLED12864_I2C.clear()
-    OLED12864_I2C.showString(
-    4,
-    1,
-    "ZACHTE",
-    1
-    )
-    OLED12864_I2C.showString(
-    4,
-    2,
-    "EITJES",
-    1
-    )
+    OLED12864_I2C.showString(4, 1, "ZACHTE", 1)
+    OLED12864_I2C.showString(4, 2, "EITJES", 1)
 })
+
 function flashScreen () {
     OLED12864_I2C.clear()
     OLED12864_I2C.invert(true)
